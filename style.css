@@ -178,3 +178,43 @@ main {
 
 /* main section 3 of 3 */
 
+.main-section-3 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background: #3882f6;
+    display: flex;
+    width: 70%;
+    border-radius: 8px;
+    padding: 48px 186px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text-container h1 {
+    color: #fff;
+}
+
+.cta-text-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    padding: 14px 50px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* main section end */
+
+/* footer */
