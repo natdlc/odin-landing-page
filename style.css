@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* header sections */
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 34vmax;
+}
+
+/* header > logo nav */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logonav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 24px 0;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* header > hero */
+
+.hero-container {
+    display: flex;
+    width: 70%;
+    gap: 54px;
+}
+
+.hero-box {
+    flex: 1;
+}
+
+.hero-box-1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-box-1 h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-box-1 p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-box-1 button {
+    align-self: flex-start;
+    padding: 8px 34px;
+    background-color: #3882f6;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.hero-box-2 {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.hero-box-2 img {
+    max-width: 100%;
+}
