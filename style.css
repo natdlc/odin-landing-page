@@ -45,6 +45,11 @@ a {
     font-weight: 900;
 }
 
+ul li:nth-child(3) a {
+    color: rgb(53, 168, 53);
+    font-weight: 600;
+}
+
 /* header > hero */
 
 .hero-container {
